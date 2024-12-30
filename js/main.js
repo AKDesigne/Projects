@@ -3,8 +3,8 @@ const header = document.querySelector('.header');
 const scrollThreshold = 100; // Порог скролла для появления тени
 
 // Константы для Telegram (можно вынести в начало файла)
-const BOT_TOKEN = "711876660:AAF2Tg6IsNSuS4dtRqTKHhUWbCUgUYQc-ks";
-const CHAT_ID = "284614484";
+const BOT_TOKEN = "Bot Token";
+const CHAT_ID = "Chat Id";
 
 // Константы для расчета на основе реальных цен в Испании
 const PRICES = {
@@ -989,8 +989,8 @@ function openContactForm(project) {
 
 
 async function sendTelegramMessage(data, project) {
-    const BOT_TOKEN = "711876660:AAF2Tg6IsNSuS4dtRqTKHhUWbCUgUYQc-ks";
-    const CHAT_ID = "284614484";
+    const BOT_TOKEN = "Bot Token";
+    const CHAT_ID = "Chat Id";
 
     // Формируем сообщение
     const message = `
